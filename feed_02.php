@@ -34,11 +34,19 @@
         </div>
     </div>
 </div>
+<section class = "jumbotron bg-primary">
+    <div class = "container text-white">
+    <h3>Tempo de carregamento da página</h3>
+    <?php
+        $end = microtime(TRUE);
+        $time = ($end - $start_time)*1000;
+        $time = round($time, 4);
 
+        echo 'O tempo de carregamento desta página foi: '.$time.'segundos'; 
+     ?>
+     </div>
+</section>
 <?php
-    $end = microtime(TRUE);
-    $time = ($end - $start_time)*1000;
-    $time = round($time, 4);
-
-    echo 'O tempo de carregamento desta página foi: '.$time.'segundos';
+    
+    include 'pages/foo.php';
 ?>
