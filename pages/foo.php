@@ -8,44 +8,40 @@
       <div class = "col-md-2">
           <ul>
               <li><h3><b>Produtos</b></h3></li>
-              <li>Manuais</li>
-              <li>Guias de uso</li>
+              <li>Manuais & Serviços</li>
               <li>Tutoriais</li>
+              <li>Webdesign</li>
+              <li>Guidelines</li>  
           </ul>
       </div>
       <div class = "col-md-2">
           <ul>
               <li><h3><b>Recursos</b></h3></li>
-              <li>Updates & Newsletter</li>
-              <li>Anúncios de vagas</li>
-              <li>Updates & Newsletter</li>
-              <li>Anúncios de vagas</li>
-              <li>Updates & Newsletter</li>
-              <li>Manuais</li>
-              <li>Cursos</li>
+              <li>Computação em Nuvem</li>
+              <li>Versionamento de projetos</li>
+              <li>Documentação</li>
               <li>Tutoriais</li>
           </ul>
       </div>
       <div class = "col-md-2">
           <ul>
               <li><h3><b>Notícias</b></h3></li>
-              <li>Assinar Newsletter</li>
-              <li>Trabalhe conosco</li>
+              <li>Atualizações</li>
+              <li>Versões passadas</li>
+              <li>Plataformas</li>
               <li>Pesquisa & Extensão</li>
           </ul>
       </div>
       <div class = "col-md-2">
           <ul>
               <li><h3><b>Santos & Workers</b></h3></li>
-              <li>Computação em Nuven</li>
+              <li>Computação em Nuvem</li>
               <li>Tecnologias Web</li>
               <li>Assistentes de Voz</li>
               <li>Realidade Aumentada</li>
               <li>Realidade Virtual</li>
-              <li>Android OS</li>
-              <li>Apple iOS </li>
-              <li>E-commerces</li>
-              <li>Portfólio</li>
+              <li>Host & Support</li>
+              <li>Portfólio Websites</li>
           </ul>
       </div>
   </div>
@@ -70,9 +66,9 @@
 </div>
 <section>
 <div class = "float" align = "">
-<div class = "card shadow-lg">
-  <div class = "card-header">#orgulhoUFC</div>
-  <div class = "card-body" id = "alertA">
+<div class = "card shadow-lg"  id = "alertA">
+  <div class = "card-header">#gabrielSantos</div>
+  <div class = "card-body">
     <h5>Autor</h5>
     <p>
       Lucas Gabriel Guilherme dos Santos, 356726<br>

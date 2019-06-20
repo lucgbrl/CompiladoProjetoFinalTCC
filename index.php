@@ -95,23 +95,55 @@ h2{
 	</div>
 </div>
 
+<section class = "jumbotron bg-primary text-white">
+	<div class = "container">
+		<div class = "row">
+			<div class = "col-md-6 mb-3 p-3">
+				<h3 class = "">Infraestrutura & Monitoramento</h3>
+				<p>Coletando métricas e auditando páginas para a internet para o TCC de Lucas Gabriel Guilherme dos Santos.</p>
+				<a class = "bnt btn-white">Leia mais</a>
+			</div>
+			<div class = "col-md-6">
+				<div class = "row">
+					<div class = "col-md-3">
+						<h1>4</h1>
+						<p>Páginas</p>
+					</div>
+					<div class = "col-md-3">
+						<h1>66</h1>
+						<p>Imagens</p>
+					</div>
+					<div class = "col-md-3">
+						<h1>3</h1>
+						<p>Metodologias</p>
+					</div>
+					<div class = "col-md-3">
+						<h1>4</h1>
+						<p>Experimentos</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
 <section class = "container ">
         <div class ="row">
             <div class = "col-md-4">
                 <ul>
                     <li><i class = "fab fa-2x fa-instagram"></i></li>
-                    <li><h3>Social</h3></li>
-                    <li>Manuais</li>
-                    <li>Cursos</li>
-                    <li>Tutoriais</li>
+                    <li><h3>Sociais</h3></li>
+                    <li>Facebook</li>
+                    <li>Instagram</li>
+                    <li>Twitter</li>
                 </ul>
             </div>
             <div class = "col-md-4">
                 <ul>
                     <li><i class = "fab fa-2x fa-whatsapp"></i></li>
                     <li><h3> Canais</h3></li>
-                    <li>Updates & Newsletter</li>
-                    <li>Anúncios de vagas</li>
+                    <li>WhatsApp</li>
+                    <li>E-mail</li>
+					<li>Linked In</li>
 
                 </ul>
             </div>
@@ -119,10 +151,11 @@ h2{
                 <ul>
                     <li><i class = "fab fa-2x fa-vuejs"></i></li>
                     <li><h3>Notícias</h3></li>
-                    <li>Assinar Newsletter</li>
-                    <li>Trabalhe conosco</li>
-                    <li>Estágio</li>
+                    <li>Updates & Newsletter</li>
+                    <li>Gitbook</li>
+                    <li>Github</li>
                     <li>Pesquisa & Extensão</li>
+					<li>Tutoriais</li>
                 </ul>
             </div>
         </div>
