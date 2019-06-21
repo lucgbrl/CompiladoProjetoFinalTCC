@@ -16,6 +16,9 @@ include('nav.php');
 
 ?>
 <style>
+#images{
+	border: none;
+}
 h2{
     font-size:100px !important;
 }
@@ -39,7 +42,7 @@ h3.subs {
 		</div>
 	</div>
 </section>
-<div class = "container" style = "height: 550px;">
+<div class = "container" style = "padding-top: 50px!important; padding-bottom: 100px;">
 	<div class = "row">
 		<div class = "col-md-6">
 			<h1 class = "heading-1">Upload de imagem</h1>
@@ -56,11 +59,14 @@ h3.subs {
 			<button class = "btn btn-outline-danger" type="submit"><i class = "fa fa-trash"></i> Cancelar</button>
 			<input class = "btn btn-success" type="hidden" name="acao" value="cadastrar" />
 			</form>
+		</div>
+		<div class  ="col-md-6 col-sd-12 p-3" id = "images">
 			<?php
-			if (isset($_POST['acao']) && $_POST['acao']=="cadastrar"){
-				echo "<img src=\"$src\">";
-			}
+				if (isset($_POST['acao']) && $_POST['acao']=="cadastrar"){
+					echo "<img src=\"$src\">";
+				}
 			?>
+			</div>
 		</div>
 	</div>
 </div>
