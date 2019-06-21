@@ -15,21 +15,37 @@
         <div class = "col-md-12">
             <div class = "row">
             <?php
+                $start_image_time = microtime(TRUE);
                 $dirname = "static/";
                 $images = glob($dirname."*.jpg");
 
                 foreach($images as $image)
                 {
                     ?>
-                    <?php list($width, $height, $type) = getimagesize($image);?>
+                    <?php 
+                    list($width, $height, $type) = getimagesize($image);
+                   
+
+                    ?>
                     <div class = "col-md-6 col-sd-12"><img src="<?=$image?>" width="350px"></div>
-                    <div class = "col-md-6 col-sd-12"><p>A largura da imagem é: <?=$width?>px</p>
-                    <p>A altura da imagem é: <?=$height?>px</p>
-                    <p>O tipo da imagem é: <?=$type?></p>
-                    <p>Seu tamanho em disco é: <?=filesize($image)?>bytes</p>
-                    </div>
-                <?php }
-            ?>
+                    <div class = "col-md-6 col-sd-12">
+                        <p>A largura da imagem é: <?=$width?>px</p>
+                        <p>A altura da imagem é: <?=$height?>px</p>
+                        <p>O tipo da imagem é: <?=$type?></p>
+                        <p>Seu tamanho em disco é: <?=filesize($image)?>bytes</p>
+                   
+                    
+                <?php 
+                 $end_image = microtime(TRUE);
+                 $time_image = ($end_image - $start_image_time)*1000;
+                 $time_image = round($time_image, 4);
+                    //echo 'O tempo de carregamento desta imagem foi: '.$time_image.'segundos'; }
+                ?>
+                     <p>O tempo de carregamento desta imagem foi de: <?=$time_image?>
+                     </div>
+                <?php
+                    }
+                ?>
             </div>
         </div>
     </div>
