@@ -54,7 +54,7 @@
     $("#pre").delay(2000).fadeOut(500);
     $("#circle").hide();
     //$("#circle").delay(2000).hide(750).fadeIn(500);
-    $("#alertA").fadeOut(3000);
+    $("#alertA").fadeOut(100);
     $("#vote").on('click', function(){
         $("#alertA").toggle();
     });
@@ -79,7 +79,7 @@
 </div>
 <br>
 <div align ="right">
-  <button id = "vote" class = "shadow-sm btn text-white btn-lg bg-primary btn-round"><i class = "fab fa-twitter"></i></button>
+  <button id = "vote" class = "shadow-sm btn text-white btn-lg bg-warning btn-round"><i class = "fa fa-thumbs-up"></i></button>
 </div>
 </div>
 </section>

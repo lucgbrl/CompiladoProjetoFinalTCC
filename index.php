@@ -20,8 +20,8 @@ h2{
     font-size:100px !important;
 }
 
-h3 {
-	font-size: 48px !important;
+h3.subs {
+	font-size: 68px !important;
 
 }
 </style>
@@ -29,14 +29,17 @@ h3 {
 	<div class = "container">
 		<div class = "row">
 			<div class = "col-md-6">
-				<h2 class = "text-white">Galeria de imagens</h2>
-				<p class = "text-white">Produzida utilizando a linguagem PHP 7 e o Servidor Apache 2.4. Clique no botão abaixo para acessar a galeria.</p>
+				<h4 class = "text-white">Lucas Gabriel, 356726</h4>
+				<h3 class = "subs text-white"><b>Otimização de imagens para a internet</b></h3>
+				<p class = "text-white" style="font-size: 23px;">
+					Construído utilizando PHP7 + Apache2.4 e hospedagem na nuvem. Focado na entrega de conteúdo.</p>
+				<a class = "btn btn-outline-light text-light"><i class = "fab fa-twitter"></i> Leia mais</a>		
 				<a class = "btn btn-warning">Acessar galeria de imagens<a>
 			</div>
 		</div>
 	</div>
 </section>
-<div class = "container">
+<div class = "container" style = "height: 550px;">
 	<div class = "row">
 		<div class = "col-md-6">
 			<h1 class = "heading-1">Upload de imagem</h1>
@@ -61,44 +64,65 @@ h3 {
 		</div>
 	</div>
 </div>
-<section class = "jumbotron bg-dark text-white">
+<section class = "jumbotron bg-dark text-white" style="background: rgba(38,38,38,1);
+background: -moz-linear-gradient(left, rgba(38,38,38,1) 0%, rgba(24,38,41,1) 50%, rgba(13,33,41,1) 100%);
+background: -webkit-gradient(left top, right top, color-stop(0%, rgba(38,38,38,1)), color-stop(50%, rgba(24,38,41,1)), color-stop(100%, rgba(13,33,41,1)));
+background: -webkit-linear-gradient(left, rgba(38,38,38,1) 0%, rgba(24,38,41,1) 50%, rgba(13,33,41,1) 100%);
+background: -o-linear-gradient(left, rgba(38,38,38,1) 0%, rgba(24,38,41,1) 50%, rgba(13,33,41,1) 100%);
+background: -ms-linear-gradient(left, rgba(38,38,38,1) 0%, rgba(24,38,41,1) 50%, rgba(13,33,41,1) 100%);
+background: linear-gradient(to right, rgba(38,38,38,1) 0%, rgba(24,38,41,1) 50%, rgba(13,33,41,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#262626', endColorstr='#0d2129', GradientType=1 );
+!important;">
 	<div class = "container">
-		<div class = "row">
-			<div class = "col-md-12 mb-3">
-				<h4 class = "">Desempenho</h4>
-				<h3><b>Otimizando imagens para a internet</b></h3>
-				<p class = "text-muted">
+		<div class = "row p-4">
+			<div class = "col-md-12">
+				<h4 class = "text-muted">Desempenho</h4>
+				<h3 class = "subs"><b>Auditoria empregando a ferramenta Lighthouse</b></h3>
+				<p class = "text-muted" style="font-size: 23px;">
 					Auditoria de páginas para a internet com ferramentas Open Source.
 				 	Qualidade da imagem. Acessibilidade & Usabilidade. Palavras-chave.</p>
-				<a class = "btn btn-outline-light text-light">Leia mais</a>
+				<a class = "btn btn-outline-light text-light"><i class = "fab fa-twitter"></i> Leia mais</a>		
 			</div>
 			<div class = "col-md-6">
 				<div class = "row">
 					<div class = "col-md-3">
-						<p class = "text-muted">Páginas</p>
+						<p class = "text-muted">Páginas dinâmicas</p>
 						<h1>04</h1>
-						<p class = "text-muted">	HTML + PHP</p>
+						<p class = "text-muted">HTML + PHP</p>
 					</div>
 					<div class = "col-md-3">
-						<p class = "text-muted">Imagnes</p>
+						<p class = "text-muted">Imagens otimizadas</p>
 						<h1>66</h1>
 						<p class = "text-muted">Amostras</p>
 					</div>
 					<div class = "col-md-3">
-						<p class = "text-muted">Técnicas</p>
+						<p class = "text-muted">Técnicas pontuais</p>
 						<h1>03</h1>
 						<p class = "text-muted">Metodologias</p>
 					</div>
 					<div class = "col-md-3">
-						<p class = "text-muted">Experimentos</p>
-						<h1>03</h1>
+						<p class = "text-muted">Experimentos & Estudos</p>
+						<h1>16</h1>
 						<p class = "text-muted">Testes com a Lighthouse</p>
 					</div>
 				</div>
 			</div>
+			<div class = "col-md-6"></div>
+			<div class = "col-md-6">
+				<img src = "img/91374.png" width="100%">
+			</div>
+			<div class = "col-md-6">
+				<h4 class = "text-muted">Desempenho</h4>
+				<h3 class = "subs"><b>Otimizando imagens para a internet</b></h3>
+				<p class = "text-muted" style="font-size: 23px;">
+					Implementando técnicas de redimensionamento e suavização aliadas a otimização da entrega de conteúdo.</p>
+				<a class = "btn btn-outline-light text-light"><i class = "fab fa-twitter"></i> Leia mais</a>		
+			</div>
 		</div>
 	</div>
 </section>
+
+
 <div class = "container">
 	<div class = "row">
 	<div class = "col-md-6 p-5">
