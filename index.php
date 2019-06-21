@@ -83,24 +83,24 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#262626', end
 				 	Qualidade da imagem. Acessibilidade & Usabilidade. Palavras-chave.</p>
 				<a class = "btn btn-outline-light text-light"><i class = "fab fa-twitter"></i> Leia mais</a>		
 			</div>
-			<div class = "col-md-6">
+			<div class = "col-md-6 col-sd-12">
 				<div class = "row">
-					<div class = "col-md-3">
+				<div class = "col-md-3 col-sd-3">
 						<p class = "text-muted">Páginas dinâmicas</p>
 						<h1>04</h1>
 						<p class = "text-muted">HTML + PHP</p>
 					</div>
-					<div class = "col-md-3">
+					<div class = "col-md-3 col-sd-3">
 						<p class = "text-muted">Imagens otimizadas</p>
 						<h1>66</h1>
 						<p class = "text-muted">Amostras</p>
 					</div>
-					<div class = "col-md-3">
+					<div class = "col-md-3 col-sd-3">
 						<p class = "text-muted">Técnicas pontuais</p>
 						<h1>03</h1>
 						<p class = "text-muted">Metodologias</p>
 					</div>
-					<div class = "col-md-3">
+					<div class = "col-md-3 col-sd-3">
 						<p class = "text-muted">Experimentos & Estudos</p>
 						<h1>16</h1>
 						<p class = "text-muted">Testes com a Lighthouse</p>
