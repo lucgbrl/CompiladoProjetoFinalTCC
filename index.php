@@ -98,7 +98,7 @@ h2{
 <section class = "jumbotron bg-primary text-white">
 	<div class = "container">
 		<div class = "row">
-			<div class = "col-md-6 mb-3 p-3">
+			<div class = "col-md-6 mb-3">
 				<h3 class = "">Infraestrutura & Monitoramento</h3>
 				<p>Coletando métricas e auditando páginas para a internet para o TCC de Lucas Gabriel Guilherme dos Santos.</p>
 				<a class = "bnt btn-white">Leia mais</a>
@@ -106,19 +106,19 @@ h2{
 			<div class = "col-md-6">
 				<div class = "row">
 					<div class = "col-md-3">
-						<h1>4</h1>
+						<h1>04</h1>
 						<p>Páginas</p>
 					</div>
 					<div class = "col-md-3">
 						<h1>66</h1>
-						<p>Imagens</p>
+						<p>Imagens base</p>
 					</div>
 					<div class = "col-md-3">
-						<h1>3</h1>
+						<h1>03</h1>
 						<p>Metodologias</p>
 					</div>
 					<div class = "col-md-3">
-						<h1>4</h1>
+						<h1>03</h1>
 						<p>Experimentos</p>
 					</div>
 				</div>
