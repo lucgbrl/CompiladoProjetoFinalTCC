@@ -19,6 +19,11 @@ include('nav.php');
 h2{
     font-size:100px !important;
 }
+
+h3 {
+	font-size: 48px !important;
+
+}
 </style>
 <section class = "index">
 	<div class = "container">
@@ -56,6 +61,44 @@ h2{
 		</div>
 	</div>
 </div>
+<section class = "jumbotron bg-dark text-white">
+	<div class = "container">
+		<div class = "row">
+			<div class = "col-md-12 mb-3">
+				<h4 class = "">Desempenho</h4>
+				<h3><b>Otimizando imagens para a internet</b></h3>
+				<p class = "text-muted">
+					Auditoria de páginas para a internet com ferramentas Open Source.
+				 	Qualidade da imagem. Acessibilidade & Usabilidade. Palavras-chave.</p>
+				<a class = "btn btn-outline-light text-light">Leia mais</a>
+			</div>
+			<div class = "col-md-6">
+				<div class = "row">
+					<div class = "col-md-3">
+						<p class = "text-muted">Páginas</p>
+						<h1>04</h1>
+						<p class = "text-muted">	HTML + PHP</p>
+					</div>
+					<div class = "col-md-3">
+						<p class = "text-muted">Imagnes</p>
+						<h1>66</h1>
+						<p class = "text-muted">Amostras</p>
+					</div>
+					<div class = "col-md-3">
+						<p class = "text-muted">Técnicas</p>
+						<h1>03</h1>
+						<p class = "text-muted">Metodologias</p>
+					</div>
+					<div class = "col-md-3">
+						<p class = "text-muted">Experimentos</p>
+						<h1>03</h1>
+						<p class = "text-muted">Testes com a Lighthouse</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
 <div class = "container">
 	<div class = "row">
 	<div class = "col-md-6 p-5">
